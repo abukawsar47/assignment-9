@@ -1,0 +1,17 @@
+.menu {
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+nav.menu a:hover {
+    color: orange;
+}

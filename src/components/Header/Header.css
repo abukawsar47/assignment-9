@@ -1,0 +1,16 @@
+.banner {
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-left {
+        margin: 30px 0;
+        text-align: center;
+    }
+}

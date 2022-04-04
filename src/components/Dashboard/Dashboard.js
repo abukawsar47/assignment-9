@@ -46,11 +46,7 @@ const Dashboard = () => {
         <div className='chart-container my-4 md:my-8'>
             <div className="chart-container-left mx-auto">
                 <p className='text-2xl font-bold text-red-600 text-center mb-4 md:mb-5'>Month Wise Sell</p>
-                <LineChart
-                    width={600}
-                    height={400}
-                    data={data}
-                >
+                <LineChart width={600} height={400} data={data}>
                     <Line dataKey={'sell'} stroke="red"></Line>
                     <XAxis dataKey={'month'}></XAxis>
                     <Tooltip />

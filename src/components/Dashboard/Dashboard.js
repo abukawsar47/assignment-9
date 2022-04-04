@@ -59,6 +59,7 @@ const Dashboard = () => {
                     <YAxis></YAxis>
                 </LineChart>
             </div>
+
             <div className="chart-container-right mx-auto">
                 <p className='text-2xl font-bold text-red-600 text-center mb-4 md:mb-5'>Investment vs Revenue</p>
 

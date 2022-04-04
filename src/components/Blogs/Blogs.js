@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Blogs = () => {
+
     return (
         <div className='blogs-container w-4/5 mx-auto my-4'>
             <>

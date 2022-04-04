@@ -9,6 +9,7 @@ import NotFound from './components/NotFound/NotFound';
 import Review from './components/Review/Review';
 
 function App() {
+
   return (
     <div className="">
       <Navbar></Navbar>

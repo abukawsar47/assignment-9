@@ -1,5 +1,4 @@
 import React from 'react';
-// import Mrf from '../../assets/Image/mrf.png'
 import Mrf from '../../assets/Image/mrf.png'
 import './Home.css'
 

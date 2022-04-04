@@ -3,6 +3,7 @@ import CustomLink from '../CustomLink/CustomLink';
 import './Navbar.css';
 
 const Navbar = () => {
+
     return (
         <div>
             <nav className='menu bg-red-600'>

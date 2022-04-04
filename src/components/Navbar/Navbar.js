@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className='menu bg-red-600'>
-                <CustomLink to="/home">Home</CustomLink>
+                <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/review">Review </CustomLink>
                 <CustomLink to="/dashboard">Dashboard</CustomLink>
                 <CustomLink to="/blogs">Blogs</CustomLink>

@@ -12,6 +12,10 @@ nav.menu a {
     margin-right: 20px;
 }
 
-nav.menu a:hover {
-    color: orange;
+@media only screen and (max-width: 768px) {
+    .menu {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+
 }
